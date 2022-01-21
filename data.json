@@ -1,0 +1,58 @@
+[
+                {
+                    "role": "BaoVe",
+                    "score": 45, 
+                    "party": 1, 
+                    "description":"Mỗi đêm, Bảo Vệ sẽ chọn một người bất kì để bảo vệ, nếu người đó bị Sói cắn, sẽ không bị chết vào sáng hôm sau",
+                    "note": "Bảo Vệ có quyền tự cứu mình, không được cứu 1 người 2 lượt liên tiếp",
+                    "advice": "Cố gắng quan sát để cứu được người bị hại"
+                },
+                 {
+                    "role": "SoiTienTri",
+                    "score": -150,
+                    "party": -1,
+                    "description": "Mỗi đêm, Nhà tiên tri sẽ chọn 1 người chơi để đoán phe và có thể trở thành Sói Thường bất cứ lúc nào (sẽ mất chức năng tiên tri)",
+                    "note": "Nếu trong phe Sói chỉ còn mỗi Sói Tiên Tri thì nó sẽ tự động trở thành thành Sói Thường",
+                    "advice": "Cố gắng quan sát để tìm ra những kẻ quan trọng và bảo với mọi người"
+                },
+                {
+                    "role": "SoiThuong",
+                    "score": -100,
+                    "party": -1,
+                    "description": "Mỗi đêm, Sói sẽ chọn 1 dân làng để giết",
+                    "note": "Sói có thể chọn không cắn. Sói có thể tự cắn nhau",
+                    "advice": "Cố gắng giết hết phe Dân Làng"
+                },
+                {
+                    "role": "PhuThuy",
+                    "score": -35,
+                    "party": 1,
+                    "description": "Phù Thủy có 2 chức năng đó là chọn 1 người sắp chết để cứu sống và giết chết 1 người mà Phù Thủy muốn",
+                    "note": "Có quyền xài 1 hoặc cả 2 bình. Bình xài rồi sẽ mất tác dụng",
+                    "advice": "Có quyền năng trong tay nên cần sử dụng khôn ngoan nhất có thể"
+                },
+                {
+                    "role": "TienTri",
+                    "score": 25,
+                    "party": 1,
+                    "description": "Mỗi đêm, Nhà tiên tri sẽ chọn 1 người chơi để đoán phe",
+                    "note": "Nếu là phe trung lập bot vẫn sẽ nhắn là 'Sói'",
+                    "advice": "Cố gắng quan sát để tìm ra sói trong đêm, ban ngày cố gắng thuyết phục mọi người"
+                },
+                {
+                    "role": "ThoSan",
+                    "score": 35,
+                    "party": 1,
+                    "description": "Trong đêm Thợ Săn sẽ chọn một người, nếu Thợ Săn chết trong đêm thì người bị Thợ Săn chọn sẽ chết chung với Thợ Săn",
+                    "note": "Thợ Săn bắn ai thì người đó chắc chắn phải chết",
+                    "advice": "Chăm chú tìm ra Sói để bắn"
+                },
+                {
+                    "role": "DanLang",
+                    "score": 0,
+                    "party": 1,
+                    "description": "Dân làng cùng với những người có chức năng tìm cách lập luận và suy đoán ra đâu là Sói đang ẩn mình dưới lớp người",
+                    "note": "Có nhiều thời gian và có nhiều cơ hội suy đoán hơn tất cả",
+                    "advice": "Đừng để vai trò dân làng của bạn trở nên vô ích, bạn có thể treo cổ Sói mà!"
+                }
+]
